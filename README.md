@@ -54,7 +54,6 @@
 | Файл | Что внутри |
 |---|---|
 | `Bestiary_Blank.html` | Пусто: ни карточек, ни разделов. Для своей кампании с нуля |
-| `Bestiary_SRD.html` | 62 существа из SRD 5.1: люди, гуманоиды, звери, нежить, волшебные существа |
 | `Bestiary_Full.html` | SRD плюс карточки кампании «Копи Фанделвера» |
 
 ## Как это устроено
@@ -104,9 +103,7 @@ python3 build.py seed.json Bestiary_SRD out/Bestiary_SRD.html "Люди,Звер
 
 ## Лицензии
 
-Код — MIT, см. `LICENSE`.
-
-Статблоки в `Bestiary_SRD.html` и часть `Bestiary_Full.html` взяты из
+Статблоки `Bestiary_Full.html` частично взяты из
 [Systems Reference Document 5.1](https://dnd.wizards.com/resources/systems-reference-document)
 (Wizards of the Coast) и распространяются по лицензии
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Числовые характеристики — из SRD,
